@@ -193,6 +193,7 @@ class AnimationPlayerEditor : public VBoxContainer {
 
 	void _list_changed();
 	void _update_animation();
+	void _update_frame_step(float p_len = 0);
 	void _update_player();
 	void _blend_edited();
 
